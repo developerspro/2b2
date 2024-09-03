@@ -7,13 +7,8 @@
                 <div class="col" id="col-2">
                     <div class="mb-3">
                         <label for="" class="form-label">valor 1</label>
-                        <?php for($i=0;$i<10;$i++){
-                        ?>
-                        <input type="text" name="valor<?php echo $i?>" class="form-control" id=""
+                        <input type="text" name="valor1" class="form-control" id=""
                         placeholder="primeiro valor">
-                        <?php
-                        }
-                        ?
                     </div>
                     <div class="mb-3">
                         <label for="" class="form-label">Operacao</label>
